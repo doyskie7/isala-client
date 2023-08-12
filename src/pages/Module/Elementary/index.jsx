@@ -13,7 +13,7 @@ export const ElementaryLearning = () =>{
 
     
     const [CurrentCategory, SetCurrentCategory] = useState('Kindergarten');
-    const [GradeLevel] = useState(["Kindergarten","Grade 1","Grade 2","Grade 3","Grade 4","Grade 5","Grade 6"])
+    const [GradeLevel] = useState(["Kindergarten","Nursery","Grade 1","Grade 2","Grade 3","Grade 4","Grade 5","Grade 6"])
     const [SelectedPath,SetSelectedPath] = useState([])
 
     const [RenderFile,SetRenderFile] = useState([])
@@ -42,7 +42,7 @@ export const ElementaryLearning = () =>{
             SetRenderFile(unique_folders)
 
         }else{
-            if(!SelectedPath.includes(path) && !path.includes(".pdf")){
+            if(!SelectedPath.includes(path) && !path.includes(".pdf")&& !path.includes(".mp4")){
                 SetSelectedPath([
                     ...SelectedPath,
                     path
@@ -59,7 +59,7 @@ export const ElementaryLearning = () =>{
                 let unique_folders = [...new Set(files)]
                 SetRenderFile(unique_folders)
     
-            }else if(SelectedPath.includes(path) && !path.includes(".pdf")){
+            }else if(SelectedPath.includes(path) && !path.includes(".pdf")&& !path.includes(".mp4")){
                 SetSelectedPath([path])
     
                 let files = [...data_files].filter((data) => {
@@ -71,7 +71,7 @@ export const ElementaryLearning = () =>{
     
                 let unique_folders = [...new Set(files)]
                 SetRenderFile(unique_folders)
-            }else if(path.includes(".pdf")){
+            }else if(path.includes(".pdf") || path.includes(".mp4")){
     
                 let keyword = SelectedPath.toString().replace(/,/g,"/") + "/" + path
                 let full_path = ""

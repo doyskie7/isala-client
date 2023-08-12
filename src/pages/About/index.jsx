@@ -24,7 +24,7 @@ export const About = () =>{
                     <div className="media-container-row">
                     <div className="title col-12 col-md-8">
                         <h2 className="align-center pb-3 mbr-fonts-style display-2">THE INSTITUTION</h2>
-                        <h3 className="mbr-section-subtitle align-center mbr-light mbr-fonts-style display-5">INTERNATIONAL SCHOOL OF THE ARTS, THE LANGUAGES, AND THE ACADEME</h3>
+                        <h3 className="mbr-section-subtitle align-center mbr-light mbr-fonts-style display-5">INTERNATIONAL SCHOOL OF THE ARTS, THE LANGUAGES, AND THE ACADEME, INC.</h3>
                     </div>
                     </div>
                 </div>
@@ -33,9 +33,9 @@ export const About = () =>{
                 <div className="container">
                     <div className="inner-container" style={{width: '100%'}}>
                     <hr className="line" style={{width: '25%'}} />
-                    <div className="section-text align-center mbr-fonts-style display-5"><div><em>The International School of the Arts, the Languages, and the Academe is non-profit organization borne out of the desire to help breed new kind of citizenship, one that is not just focused to love of country but most importantly, one that understand, appreciates, and respects other cultures in order to create global citizens, able to plan, work, and collaborate with all people regardless of their race, religion, or citizenship around the world.</em></div><em><br /></em><div>
+                    <div className="section-text align-center mbr-fonts-style display-5"><div><em>The International School of the Arts, the Languages, and the ACADEME, INC. is non-profit organization borne out of the desire to help breed new kind of citizenship, one that is not just focused to love of country but most importantly, one that understand, appreciates, and respects other cultures in order to create global citizens, able to plan, work, and collaborate with all people regardless of their race, religion, or citizenship around the world.</em></div><em><br /></em><div>
                         </div><div>
-                        </div><div><em>In a very short period of time, the International School of the Arts, the Languages, and the Academe, -which was first known to be MTPSF Center of the Arts, and the Academe in 2004,-  has grown from the original pre- elementary program to a complete K-12 program with a special College of Fine Arts  and other 
+                        </div><div><em>In a very short period of time, the International School of the Arts, the Languages, and the ACADEME, INC., -which was first known to be MTPSF Center of the Arts, and the ACADEME, INC. in 2004,-  has grown from the original pre- elementary program to a complete K-12 program with a special College of Fine Arts  and other 
 Technical-Vocational Courses which are carefully selected and planned  in order that the ideal for which the organization has been established is achieved.  I.S.A.L.A.’s approach to teaching and learning is more on the discovery of things and the application of formulas and concepts rather than traditional paper and pencil, lecture type of instruction.</em></div><em><br /></em>
 
                         

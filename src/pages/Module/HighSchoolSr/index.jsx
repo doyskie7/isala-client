@@ -41,7 +41,7 @@ export const HighSchoolSrModule = () =>{
             SetRenderFile(unique_folders)
 
         }else{
-            if(!SelectedPath.includes(path) && !path.includes(".pdf")){
+            if(!SelectedPath.includes(path) && !path.includes(".pdf")&& !path.includes(".mp4")){
                 SetSelectedPath([
                     ...SelectedPath,
                     path
@@ -51,15 +51,14 @@ export const HighSchoolSrModule = () =>{
                 let files = [...data_files].filter((data) => {
                     return data.includes(keyword+"/");
                 }).map((filteredData) => {
-                    console.log(filteredData)
                     let file_selected = filteredData.split('/')[ 5 + SelectedPath.length]
                     return file_selected;
                 });
-                console.log(keyword)
+    
                 let unique_folders = [...new Set(files)]
                 SetRenderFile(unique_folders)
     
-            }else if(SelectedPath.includes(path) && !path.includes(".pdf")){
+            }else if(SelectedPath.includes(path) && !path.includes(".pdf")&& !path.includes(".mp4")){
                 SetSelectedPath([path])
     
                 let files = [...data_files].filter((data) => {
@@ -71,7 +70,7 @@ export const HighSchoolSrModule = () =>{
     
                 let unique_folders = [...new Set(files)]
                 SetRenderFile(unique_folders)
-            }else if(path.includes(".pdf")){
+            }else if(path.includes(".pdf") || path.includes(".mp4")){
     
                 let keyword = SelectedPath.toString().replace(/,/g,"/") + "/" + path
                 let full_path = ""
@@ -169,7 +168,13 @@ export const HighSchoolSrModule = () =>{
                                         aria-labelledby="contained-modal-title-vcenter"
                                         centered
                                         >    
-                                            <iframe src={"http://localhost:3000/"+FullPathSelected} width="100%" height="850px"></iframe>
+                                            {
+                                                FullPathSelected.includes(".pdf")
+                                                ?
+                                                <iframe src={"http://localhost:3000/"+FullPathSelected} width="100%" height="850px"></iframe>
+                                                :
+                                                <video  src={"http://localhost:3000/"+FullPathSelected}></video>
+                                            }
                                             
                                         <Button variant="success" onClick={()=>{setshowPDF(false)}}>
                                             Close PDF

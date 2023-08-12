@@ -97,7 +97,7 @@ export const Programs = () =>{
                 <p className="mbr-text align-left mbr-white mbr-fonts-style display-5">
                   <em>
                     <strong>
-                      The International School of the Arts, the languages and the Academe is the only International School North of Baguio City that is ready to serve the needs of the Filipino youth as well as Foreign students who are
+                      The International School of the Arts, the languages and the ACADEME, INC. is the only International School North of Baguio City that is ready to serve the needs of the Filipino youth as well as Foreign students who are
                       here in the country on a temporary basis. As school follows the American Standards of teaching and learning, it has aligned its course offerings with the Department of Education, Philippines, in such a way that
                       Filipino students who are enrolled in the school can still take courses in Filipino and learn Philippine History and Government. Below is a broad outline of our services and their corresponding costs.
                     </strong>

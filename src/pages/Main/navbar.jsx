@@ -22,7 +22,7 @@ export const NavBar = () => {
                             </a>
                         </span>
                         <span className="navbar-caption-wrap">
-                            <a className="navbar-caption text-white display-4" href="#top">INTERNATIONAL SCHOOL OF THE ARTS, THE LANGUAGES, AND THE ACADEME &nbsp;<br /></a>
+                            <a className="navbar-caption text-white display-4" href="#top">INTERNATIONAL SCHOOL OF THE ARTS, THE LANGUAGES, AND THE ACADEME, INC. &nbsp;<br /></a>
                         </span>
                     </div>
                 </div>

@@ -240,7 +240,7 @@ export const Contacts = () =>{
         <section className="contacts4 cid-scFWJZe1kj" id="contacts4-l">
           <div className="main_wrapper">
             {/*Map*/}
-            <div className="google-map"><iframe frameBorder={0} style={{border: 0}} src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3790.3635636422173!2d120.59646581537697!3d18.193209283851086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x338ec61f71569d09%3A0x946aa58da494186a!2sINTERNATIONAL%20SCHOOL%20OF%20THE%20ARTS%2C%20THE%20LANGUAGES%2C%20AND%20THE%20ACADEME!5e0!3m2!1sen!2sph!4v1602096798415!5m2!1sen!2sph" allowFullScreen /></div>
+            <div className="google-map"><iframe frameBorder={0} style={{border: 0}} src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3790.3635636422173!2d120.59646581537697!3d18.193209283851086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x338ec61f71569d09%3A0x946aa58da494186a!2sINTERNATIONAL%20SCHOOL%20OF%20THE%20ARTS%2C%20THE%20LANGUAGES%2C%20AND%20THE%20ACADEME, INC.!5e0!3m2!1sen!2sph!4v1602096798415!5m2!1sen!2sph" allowFullScreen /></div>
           </div>
         </section>
         </>

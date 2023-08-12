@@ -26,7 +26,7 @@ export const Footer = () =>{
                         <div className="media-container-row mbr-white">
                             <div className="col-md-6 copyright">
                                 <p className="mbr-text mbr-fonts-style display-7">
-                                    © Copyright 2020 INTERNATIONAL SCHOOL OF THE ARTS, THE LANGUAGES, AND THE ACADEME- All Rights Reserved
+                                    © Copyright 2020 INTERNATIONAL SCHOOL OF THE ARTS, THE LANGUAGES, AND THE ACADEME, INC.- All Rights Reserved
                                 </p>
                             </div>
                             <div className="col-md-6">

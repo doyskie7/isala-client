@@ -4,6 +4,37 @@
 
 
 export const Folder = ({ RenderFile,HandlePathNavigator }) =>{
+
+    const RenderFileType = (indicator) => {
+        if(indicator.includes(".mp4")){
+            return (
+                <>
+                    <img src="assets/images/isala/video-icon.png" alt=""  style={{
+                        height:"150px",
+                        width:"150px"
+                    }} />
+                </>
+            )
+        }
+        if(indicator.includes(".pdf")){
+            return (
+                <>
+                    <img src="assets/images/isala/pdf-icon.png" alt=""  style={{
+                        height:"150px",
+                        width:"150px"
+                    }} />
+                </>
+            )
+        }
+        return (
+            <>
+                <img src="assets/images/isala/folder-icon.png" alt=""  style={{
+                    height:"150px",
+                    width:"150px"
+                }} />
+            </>
+        )
+    }
     return (
         <>
             {
@@ -19,15 +50,7 @@ export const Folder = ({ RenderFile,HandlePathNavigator }) =>{
                                 }>
                             <div className="align-center">
                                 {
-                                    data.includes(".pdf")
-                                    ?
-                                    <img src="assets/images/isala/pdf-icon.png" alt=""  style={{
-                                        height:"150px",
-                                        width:"150px"
-                                    }} />
-                                    :
-                                    <img src="assets/images/isala/folder-icon.png" alt=""/>
-
+                                    RenderFileType(data)
                                 }
                                 <h6>{data}</h6>
                             </div>

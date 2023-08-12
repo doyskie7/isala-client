@@ -15,10 +15,14 @@ async function main() {
           !itemFile.includes('.png') && 
           !itemFile.includes('.jpg') && 
           !itemFile.includes('.jpeg')&& 
+          !itemFile.includes('.mp4')&& 
+          !itemFile.includes('.tmp')&& 
+          !itemFile.includes('.PDF')&& 
+          !itemFile.includes('.webm')&& 
           !itemFile.includes('.pptx')) {
           recursiveReader(filePath);
         } else {
-          if(filePath.includes(".pdf")){
+          if(filePath.includes(".pdf") || filePath.includes(".mp4")){
             pdf_files.push(filePath)
           }
         }
