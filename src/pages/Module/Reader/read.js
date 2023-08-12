@@ -28,7 +28,7 @@ async function main() {
       }
     };
     
-    recursiveReader('C:/Users/evegu/Desktop/isala-client/public/assets/module');
+    recursiveReader('C:/Users/User-2/Desktop/new/isala-client/public/assets/module');
   
     const flattenedArray = [].concat(...all_files);
 

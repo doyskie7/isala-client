@@ -1,6 +1,5 @@
 
 import { useState,useEffect } from "react"
-import { FilesElementary,LiveUrl  } from "../data";
 import {Modal,Button,Row,Col} from 'react-bootstrap'
 
 import { ToastContainer, toast } from 'react-toastify';
@@ -117,7 +116,7 @@ export const HighSchoolJrModule = () =>{
                         <img src="assets/images/slide1-2-480x384.png" alt="Mobirise" />
                     </div>
                     <div className="media-content">
-                        <h1 className="mbr-section-title mbr-white pb-3 mbr-fonts-style display-1"><strong>Elementary</strong></h1>
+                        <h1 className="mbr-section-title mbr-white pb-3 mbr-fonts-style display-1"><strong>Junior High School</strong></h1>
                         <div className="mbr-section-text mbr-white pb-3 ">
                         </div>
                         <div className="mbr-section-btn"><a className="btn btn-md btn-primary display-4" href="page1.html#content4-24">Check Learning Modules</a></div>
@@ -129,7 +128,7 @@ export const HighSchoolJrModule = () =>{
                 <div className="container">
                     <div className="media-container-row">
                     <div className="title col-12 col-md-8">
-                        <h2 className="align-center pb-3 mbr-fonts-style display-2">Elementary Learning Module</h2>
+                        <h2 className="align-center pb-3 mbr-fonts-style display-2">Junior High School Learning Module</h2>
                     </div>
                     </div>
                 </div>

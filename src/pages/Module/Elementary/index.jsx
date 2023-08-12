@@ -12,8 +12,8 @@ import { Folder } from "./folder";
 export const ElementaryLearning = () =>{
 
     
-    const [CurrentCategory, SetCurrentCategory] = useState('Kinder-Nursery');
-    const [GradeLevel] = useState(["Kinder-Nursery","Grade 1","Grade 2","Grade 3","Grade 4","Grade 5","Grade 6"])
+    const [CurrentCategory, SetCurrentCategory] = useState('Kindergarten');
+    const [GradeLevel] = useState(["Kindergarten","Grade 1","Grade 2","Grade 3","Grade 4","Grade 5","Grade 6"])
     const [SelectedPath,SetSelectedPath] = useState([])
 
     const [RenderFile,SetRenderFile] = useState([])
