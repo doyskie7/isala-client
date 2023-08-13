@@ -169,8 +169,13 @@ export const ElementaryLearning = () =>{
                                         aria-labelledby="contained-modal-title-vcenter"
                                         centered
                                         >    
-                                            <iframe src={"http://localhost:3000/"+FullPathSelected} width="100%" height="850px"></iframe>
-                                            
+                                            {
+                                                FullPathSelected.includes(".pdf")
+                                                ?
+                                                <iframe src={"https://isala.com.ph/"+FullPathSelected} width="100%" height="850px"></iframe>
+                                                :
+                                                <video  src={"https://isala.com.ph/"+FullPathSelected}></video>
+                                            }
                                         <Button variant="success" onClick={()=>{setshowPDF(false)}}>
                                             Close PDF
                                         </Button>

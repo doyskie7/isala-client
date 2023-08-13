@@ -60,6 +60,19 @@ export const Contacts = () =>{
                       <p className="mbr-text align-left mbr-fonts-style display-7">
                         Internationalschoolofthearts@yahoo.com 
                       </p>
+                      <br/>
+                      <h5 className="align-left mbr-fonts-style m-0 display-5">
+                        Contact Numbers:
+                      </h5>
+                      <p className="mbr-text align-left mbr-fonts-style display-7">
+                        +63 939-475-9284
+                        <br/>
+                        +63 916-321-3670
+                        <br/>
+                        077-600-1281 (Claravall campus)
+                        <br/>
+                        077-774-4167 (Main campus)
+                      </p>
                     </div>
                   </div>
                 </div>

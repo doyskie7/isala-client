@@ -171,9 +171,9 @@ export const HighSchoolSrModule = () =>{
                                             {
                                                 FullPathSelected.includes(".pdf")
                                                 ?
-                                                <iframe src={"http://localhost:3000/"+FullPathSelected} width="100%" height="850px"></iframe>
+                                                <iframe src={"https://isala.com.ph/"+FullPathSelected} width="100%" height="850px"></iframe>
                                                 :
-                                                <video  src={"http://localhost:3000/"+FullPathSelected}></video>
+                                                <video  src={"https://isala.com.ph/"+FullPathSelected}></video>
                                             }
                                             
                                         <Button variant="success" onClick={()=>{setshowPDF(false)}}>

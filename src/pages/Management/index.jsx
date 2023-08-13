@@ -39,7 +39,7 @@ export const Management = () =>{
           </div>
           <div className="container pt-3 mt-2">
             <div className="media-container-row">
-              <div className="mbr-testimonial p-3 align-center col-12 col-md-6 col-lg-4">
+              {/* <div className="mbr-testimonial p-3 align-center col-12 col-md-6 col-lg-4">
                 <div className="panel-item p-3">
                   <div className="card-block">
                     <div className="testimonial-photo">
@@ -54,8 +54,8 @@ export const Management = () =>{
                         <br /></em>mikyanglapsat@gmail.com<em><br /></em></small>
                   </div>
                 </div>
-              </div>
-              <div className="mbr-testimonial p-3 align-center col-12 col-md-6 col-lg-4">
+              </div> */}
+              {/* <div className="mbr-testimonial p-3 align-center col-12 col-md-6 col-lg-4">
                 <div className="panel-item p-3">
                   <div className="card-block">
                     <div className="testimonial-photo">
@@ -70,23 +70,8 @@ export const Management = () =>{
                       </em><br />rangalourence1211@gmail.com<br /></small>
                   </div>
                 </div>
-              </div>
-              <div className="mbr-testimonial p-3 align-center col-12 col-md-6 col-lg-4">
-                <div className="panel-item p-3">
-                  <div className="card-block">
-                    <div className="testimonial-photo">
-                      <img src="assets/images/isala-14-240x347.jpeg" alt="" />
-                    </div>
-                    <p className="mbr-text mbr-fonts-style display-7" />
-                  </div>
-                  <div className="card-footer">
-                    <div className="mbr-author-name mbr-bold mbr-fonts-style display-7">ARVIN D. DE LA CRUZ, LPT</div>
-                    <small className="mbr-author-desc mbr-italic mbr-light mbr-fonts-style display-7"><em>
-                        Teacher 
-                        <br /></em>arvindelacruz922@gmail.com<br /></small>
-                  </div>
-                </div>
-              </div>
+              </div> */}
+             
               <div className="mbr-testimonial p-3 align-center col-12 col-md-6 col-lg-4">
                 <div className="panel-item p-3">
                   <div className="card-block">
@@ -102,7 +87,7 @@ export const Management = () =>{
                   </div>
                 </div>
               </div>
-              <div className="mbr-testimonial p-3 align-center col-12 col-md-6 col-lg-4">
+              {/* <div className="mbr-testimonial p-3 align-center col-12 col-md-6 col-lg-4">
                 <div className="panel-item p-3">
                   <div className="card-block">
                     <div className="testimonial-photo">
@@ -117,7 +102,7 @@ export const Management = () =>{
                     </small>
                   </div>
                 </div>
-              </div>
+              </div> */}
               <div className="mbr-testimonial p-3 align-center col-12 col-md-6 col-lg-4">
                 <div className="panel-item p-3">
                   <div className="card-block">
@@ -160,7 +145,7 @@ export const Management = () =>{
                   </div>
                 </div>
               </div>
-              <div className="mbr-testimonial p-3 align-center col-12 col-md-6 col-lg-4">
+              {/* <div className="mbr-testimonial p-3 align-center col-12 col-md-6 col-lg-4">
                 <div className="panel-item p-3">
                   <div className="card-block">
                     <div className="testimonial-photo">
@@ -175,8 +160,8 @@ export const Management = () =>{
                     </small>
                   </div>
                 </div>
-              </div>
-              <div className="mbr-testimonial p-3 align-center col-12 col-md-6 col-lg-4">
+              </div> */}
+              {/* <div className="mbr-testimonial p-3 align-center col-12 col-md-6 col-lg-4">
                 <div className="panel-item p-3">
                   <div className="card-block">
                     <div className="testimonial-photo">
@@ -191,8 +176,8 @@ export const Management = () =>{
                     </small>
                   </div>
                 </div>
-              </div>
-              <div className="mbr-testimonial p-3 align-center col-12 col-md-6 col-lg-4">
+              </div> */}
+              {/* <div className="mbr-testimonial p-3 align-center col-12 col-md-6 col-lg-4">
                 <div className="panel-item p-3">
                   <div className="card-block">
                     <div className="testimonial-photo">
@@ -207,7 +192,7 @@ export const Management = () =>{
                     </small>
                   </div>
                 </div>
-              </div>
+              </div> */}
               <div className="mbr-testimonial p-3 align-center col-12 col-md-6 col-lg-4">
                 <div className="panel-item p-3">
                   <div className="card-block">
@@ -237,38 +222,8 @@ export const Management = () =>{
             </h2>
             <div className="carousel slide" role="listbox" data-pause="true" data-keyboard="false" data-ride="carousel" data-interval="5000">
               <div className="carousel-inner">
-                
+            
                 <div className="carousel-item active">
-                  <div className="user col-md-8">
-                    <div className="user_image">
-                      <img src="assets/images/isala-1-400x578.jpg" alt="" />
-                    </div>
-                    <div className="user_text pb-3">
-                      <p className="mbr-fonts-style display-7" /><p><strong>HELENA MARITA PALALAY PH.D.</strong></p><p />
-                    </div>
-                    <div className="user_name mbr-bold pb-2 mbr-fonts-style display-7"><em>School President</em></div>
-                    <div className="user_desk mbr-light mbr-fonts-style display-7">
-                      Internationalofthearts@gmail.com
-                    </div>
-                  </div>
-                </div>
-
-                
-                <div className="carousel-item">
-                  <div className="user col-md-8">
-                    <div className="user_image">
-                      <img src="assets/images/53402686-10156333152683250-8171337316871176192-n-400x400.jpeg" alt="" />
-                    </div>
-                    <div className="user_text pb-3">
-                      <p className="mbr-fonts-style display-7"><strong>RYAN MARVIN S. MABEZA MM.CPME </strong></p>
-                    </div>
-                    <div className="user_name mbr-bold pb-2 mbr-fonts-style display-7"><em>School Director</em></div>
-                    <div className="user_desk mbr-light mbr-fonts-style display-7">
-                      ryan.mabeza@gmail.coM</div>
-                  </div>
-                </div>
-
-                <div className="carousel-item">
                   <div className="user col-md-8">
                     <div className="user_image">
                       <img src="assets/images/isala-3-400x578.jpg" alt="" />
@@ -276,22 +231,96 @@ export const Management = () =>{
                     <div className="user_text pb-3">
                       <p className="mbr-fonts-style display-7"><strong>MAVE RICK C. AGUSTIN</strong></p>
                     </div>
-                    <div className="user_name mbr-bold pb-2 mbr-fonts-style display-7"><em>Office of the Registrar</em></div>
+                    <div className="user_name mbr-bold pb-2 mbr-fonts-style display-7"><em>
+                      OIC, Principal</em></div>
                     <div className="user_desk mbr-light mbr-fonts-style display-7">maverickagustin1@gmail.com</div>
+                  </div>
+                </div>
+
+
+                <div className="carousel-item">
+                  <div className="user col-md-8">
+                    <div className="user_image">
+                      <img src="assets/images/isala/claudine-dela-cruz.jpg" alt="" />
+                    </div>
+                    <div className="user_text pb-3">
+                      <p className="mbr-fonts-style display-7"><strong>CLAUDINE DELA CRUZ</strong></p>
+                    </div>
+                    <div className="user_name mbr-bold pb-2 mbr-fonts-style display-7"><em>
+                      Administrative Officer 1</em></div>
+                    <div className="user_desk mbr-light mbr-fonts-style display-7">
+--
+                    </div>
+                  </div>
+                </div>
+
+
+
+
+                <div className="carousel-item">
+                  <div className="user col-md-8">
+                    <div className="user_image">
+                      <img src="assets/images/isala/irene-flores.jpg" alt="" />
+                    </div>
+                    <div className="user_text pb-3">
+                      <p className="mbr-fonts-style display-7"><strong>IRENE FLORES, M.A.</strong></p>
+                    </div>
+                    <div className="user_name mbr-bold pb-2 mbr-fonts-style display-7"><em>
+                      Senior High School Principal / Guidance Counselor</em></div>
+                    <div className="user_desk mbr-light mbr-fonts-style display-7">
+                      --
+                      </div>
+                  </div>
+                </div>
+
+
+                <div className="carousel-item">
+                  <div className="user col-md-8">
+                    <div className="user_image">
+                      <img src="assets/images/isala-13-240x347.jpg"  alt="" />
+                    </div>
+                    <div className="user_text pb-3">
+                      <p className="mbr-fonts-style display-7"><strong>JOHN MICHAEL ARCA</strong></p>
+                    </div>
+                    <div className="user_name mbr-bold pb-2 mbr-fonts-style display-7"><em>
+                      ICT Coordinator</em></div>
+                    <div className="user_desk mbr-light mbr-fonts-style display-7">
+                    arcajohnmichael@gmail.com 
+                      </div>
                   </div>
                 </div>
 
                 <div className="carousel-item">
                   <div className="user col-md-8">
                     <div className="user_image">
-                      <img src="assets/images/isala-4-400x578.jpg" alt="" />
+                      <img src="assets/images/isala/martina-nestora.jpg"  alt="" />
+                    </div>
+                    <div className="user_text pb-3">
+                      <p className="mbr-fonts-style display-7"><strong>MARTINA NESTORA D. PALALAY</strong></p>
+                    </div>
+                    <div className="user_name mbr-bold pb-2 mbr-fonts-style display-7"><em>
+                      Secretary / Treasurer </em></div>
+                    <div className="user_desk mbr-light mbr-fonts-style display-7">
+                    martina_palalay@yahoo.com.ph
+                      </div>
+                  </div>
+                </div>
+
+
+
+
+                <div className="carousel-item">
+                  <div className="user col-md-8">
+                    <div className="user_image">
+                      <img src="assets/images/isala/evelyn.jpg" alt="" />
                     </div>
                     <div className="user_text pb-3">
                       <p className="mbr-fonts-style display-7"><strong>EVELYN P. RAMEL</strong></p>
                     </div>
-                    <div className="user_name mbr-bold pb-2 mbr-fonts-style display-7"><em>Principal&nbsp;</em></div>
+                    <div className="user_name mbr-bold pb-2 mbr-fonts-style display-7"><em>
+                      Executive Consultant&nbsp;</em></div>
                     <div className="user_desk mbr-light mbr-fonts-style display-7">
-                      maverickagustin1@gmail.coM</div>
+                      </div>
                   </div>
                 </div>
                 
@@ -303,7 +332,8 @@ export const Management = () =>{
                         <div className="user_text pb-3">
                         <p className="mbr-fonts-style display-7"><strong>MA. FLORDELIZ C. RABAGO</strong></p>
                         </div>
-                        <div className="user_name mbr-bold pb-2 mbr-fonts-style display-7"><em>Senior High School Coordinator&nbsp;</em></div>
+                        <div className="user_name mbr-bold pb-2 mbr-fonts-style display-7"><em>
+                          Elementary Principal&nbsp;</em></div>
                         <div className="user_desk mbr-light mbr-fonts-style display-7">
                         flordelizcabel@gmail.com
                         </div>
@@ -312,14 +342,14 @@ export const Management = () =>{
                 </div>
 
               <div className="carousel-controls">
-                <a className="carousel-control-prev" role="button" data-slide="prev">
+                {/* <a className="carousel-control-prev" role="button" data-slide="prev">
                   <span aria-hidden="true" className="mbri-arrow-prev mbr-iconfont" />
                   <span className="sr-only">Previous</span>
                 </a>
                 <a className="carousel-control-next" role="button" data-slide="next">
                   <span aria-hidden="true" className="mbri-arrow-next mbr-iconfont" />
                   <span className="sr-only">Next</span>
-                </a>
+                </a> */}
               </div>
             </div>
           </div>
